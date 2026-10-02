@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=SlotMachineCC1Test
+comment0.text=\r\n\ Clase\ de\ pruebas\ compartida\ para\ ciclo\ 1\ de\ SlotMachine.\r\n\ Cada\ caso\ incluye\ en\ su\ nombre\ iniciales\ en\ orden\ alfabetico\:\r\n\ As\ \=\ Alvarez\ Silva,\ Ga\ \=\ Gonzalez\ Alba.\ Las\ pruebas\ se\ ejecutan\ en\r\n\ modo\ invisible\ y\ cada\ caso\ prepara\ lo\ que\ necesita.\r\n\ Primera\ parte\ pruebas\ propias,\ segunda\ parte\ las\ tomadas\ de\r\n\ la\ wiki\ del\ curso,\ adaptadas\ a\ nuestro\ SlotMachine.\r\n\r\n\ @author\ Sergio\ Gonzalez\ Alba\ (Ga),\ Juan\ Andres\ Alvarez\ Silva\ (As)\r\n\ @version\ 2.0\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ accordingAsGaShouldNotPlaceASymbolThatIsNotInTheCatalog()
+comment2.text=\r\n\ Un\ simbolo\ que\ no\ esta\ en\ el\ catalogo\ no\ se\ puede\ colocar\ en\ una\r\n\ rueda\:\ la\ operacion\ falla\ y\ la\ rueda\ sigue\ sin\ simbolo\ al\ frente.\r\n
+comment3.params=
+comment3.target=void\ accordingAsGaShouldBeJackpotOnlyWhileAllWheelsShowTheSameColor()
+comment3.text=\r\n\ Hay\ premio\ cuando\ todas\ las\ ruedas\ muestran\ el\ mismo\ color,\ y\ deja\r\n\ de\ haberlo\ si\ una\ rueda\ cambia\ de\ color.\r\n
+comment4.params=
+comment4.target=void\ testAddWheelInFirstPosition()
+comment4.text=\r\n\ Grupo\ GomezCarrero\:\ insertar\ dos\ ruedas\ en\ la\ primera\ posicion.\r\n\ (Se\ cuenta\ con\ configuration().length\ en\ vez\ de\ wheels().)\r\n
+comment5.params=
+comment5.target=void\ testAddWheelPositionAboveMaximum()
+comment5.text=\r\n\ Grupo\ GomezCarrero\:\ una\ posicion\ mayor\ al\ maximo\ se\ ajusta.\r\n
+comment6.params=
+comment6.target=void\ accordingZGBCShouldDeleteExistingSymbol()
+comment6.text=\r\n\ Grupo\ BustosZorro\:\ un\ simbolo\ existente\ se\ puede\ eliminar.\r\n
+comment7.params=
+comment7.target=void\ accordingZGBCShouldNotDeleteMissingSymbol()
+comment7.text=\r\n\ Grupo\ BustosZorro\:\ un\ simbolo\ que\ no\ existe\ no\ se\ puede\ eliminar.\r\n
+numComments=8

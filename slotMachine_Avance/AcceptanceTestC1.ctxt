@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=AcceptanceTestC1
+comment0.text=\r\n\ Prueba\ de\ aceptacion\ del\ ciclo\ 1.\ Se\ ejecuta\ a\ mano\ en\ bluej\:\ crear\ un\r\n\ objeto\ de\ esta\ clase\ y\ llamar\ a\ run().\ La\ maquina\ queda\ visible\ y\r\n\ disponible\ en\ el\ object\ bench.\r\n\r\n\ @author\ Sergio\ Gonzalez\ Alba,\ Juan\ Andres\ Alvarez\ Silva\r\n\ @version\ 2.0\r\n
+comment1.params=
+comment1.target=SlotMachine\ run()
+comment1.text=\r\n\ Crea\ una\ maquina\ con\ tres\ ruedas\ y\ cuatro\ simbolos,\ coloca\ los\r\n\ simbolos\ en\ cada\ rueda,\ la\ hace\ visible,\ gira\ las\ ruedas\ y\ la\ deja\r\n\ en\ estado\ ganador\ (todas\ las\ ruedas\ al\ frente\ con\ el\ mismo\ color).\r\n\ @return\ la\ maquina\ en\ su\ estado\ final.\r\n
+comment2.params=
+comment2.target=SlotMachine\ createMachine()
+comment2.text=\r\n\ Crea\ la\ maquina\ base\:\ tres\ ruedas,\ cuatro\ simbolos\ y\ todos\ los\r\n\ simbolos\ colocados\ en\ cada\ rueda.\r\n
+comment3.params=machine
+comment3.target=void\ leaveInJackpot(SlotMachine)
+comment3.text=\r\n\ Deja\ el\ mismo\ simbolo\ al\ frente\ de\ todas\ las\ ruedas.\r\n\ @param\ machine\ maquina\ a\ dejar\ en\ estado\ ganador.\r\n
+numComments=4

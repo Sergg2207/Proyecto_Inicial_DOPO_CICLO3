@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=AcceptanceTestC2
+comment0.text=\r\n\ Pruebas\ de\ aceptacion\ del\ ciclo\ 2.\ Se\ ejecutan\ a\ mano\ en\ BlueJ\:\ crear\ un\r\n\ objeto\ de\ esta\ clase\ y\ llamar\ a\ lockAndSpinSteps()\ o\ swapAndSetJackpot().\r\n\ Cada\ metodo\ deja\ la\ maquina\ visible\ en\ el\ object\ bench.\r\n\r\n\ @author\ Sergio\ Gonzalez\ Alba,\ Juan\ Andres\ Alvarez\ Silva\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=SlotMachine\ lockAndSpinSteps()
+comment1.text=\r\n\ Crea\ una\ maquina\ de\ tres\ ruedas\ con\ simbolos,\ fija\ la\ rueda\ 2\ y\ la\r\n\ gira\:\ no\ debe\ moverse.\ Luego\ la\ suelta\ y\ gira\ la\ rueda\ 1\ varios\ pasos\r\n\ (se\ ve\ paso\ a\ paso).\r\n\ @return\ la\ maquina\ en\ su\ estado\ final.\r\n
+comment2.params=
+comment2.target=SlotMachine\ swapAndSetJackpot()
+comment2.text=\r\n\ Crea\ una\ maquina\ de\ tres\ ruedas\ con\ simbolos,\ intercambia\ las\ ruedas\r\n\ 1\ y\ 3,\ y\ deja\ la\ maquina\ en\ una\ configuracion\ ganadora\ con\r\n\ spin(setSymbols).\r\n\ @return\ la\ maquina\ en\ su\ estado\ final.\r\n
+comment3.params=
+comment3.target=SlotMachine\ createMachine()
+comment3.text=\r\n\ Crea\ la\ maquina\ base\:\ tres\ ruedas,\ cuatro\ simbolos\ y\ todos\ los\r\n\ simbolos\ colocados\ en\ cada\ rueda.\r\n
+numComments=4
